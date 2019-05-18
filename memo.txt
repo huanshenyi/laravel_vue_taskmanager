@@ -1,0 +1,4 @@
+artisan make:migration add_user_id_collum_to_projects_table --table=projects
+
+#ファイルの保存先の変更(defultはstorage内に)
+artisan storage:link
